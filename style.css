@@ -1,0 +1,41 @@
+
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 94vh}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #252525;
+      height: 100%;
+      color: white;
+      position:relative;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #111;
+      color: white;
+      height: 6vh;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+
+ul{position:absolute;bottom:15px;width:93.5%}
+p{font-size:14pt}
+#footy{margin-top:1.6vh;margin-left:10px}
+body{background-image:url("bg.png")}/*video game screenshot i took lol*/
+#tictactoe{
+    background:radial-gradient(#2226 10%, #0006 70.7%);
+    margin-top:31vh;
+    margin-left:27vw;
+    width:15vw;
+    height:15.55vw;
+    font-size: 25pt;
+    color:white;
+}

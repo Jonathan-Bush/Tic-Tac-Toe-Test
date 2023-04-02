@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tic Tac Toe Game</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h2>Tic Tac Toe</h2>
+        Website by Jonathan Bush
+        <p><br><br>Click on the squares to play. The game will alternate between X's and O's automatically. First to draw a row, column, or diagonal wins! The results from the previous game will be shown in the footer after the first game is played.</p>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="../index.html">Back to Index</a></li>
+      </ul><br>
+    </div>
+
+    <div class="col-sm-9">
+        <div id="tictactoe"></div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid">
+  <p id="footy">First game in progress</p>
+</footer>
+<script src="tictactoe.js"></script>
+</body>
+</html>
