@@ -1,2 +1,2 @@
 # Tic-Tac-Toe-Test
-For a school project.
+A website for a school project.
