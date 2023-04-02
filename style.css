@@ -29,7 +29,7 @@
 ul{position:absolute;bottom:15px;width:93.5%}
 p{font-size:14pt}
 #footy{margin-top:1.6vh;margin-left:10px}
-body{background-image:url("bg.png")}/*video game screenshot i took lol*/
+body{background-image:url("/assets/bg.png")}/*video game screenshot i took lol*/
 #tictactoe{
     background:radial-gradient(#2226 10%, #0006 70.7%);
     margin-top:31vh;
